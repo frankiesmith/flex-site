@@ -88,31 +88,28 @@ a {
 .sidebar {
 	width: 20%;
 	margin: 5px;
-	margin-left:0px;
 	background-color:#f78f20;
 }
 
 .content {
 	width: 80%;
-	margin:5px;
-	margin-right:0px;
+	margin:10px;
 	padding:10px;
 	background-color:#fff;
 }
 
 .box {
 	background-position: center;
-	height: 300px;
-	flex-grow: 1
+	flex-grow: 1;
 }
 
 .content .box {
-    width: 50%;
-    padding: 13px;
-    margin: 5px;
-    height: auto;
+    padding: 10px;
+    margin: 8px;
+    min-height:200px;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
+    
 
 .header {
 	background: url("../images/beer_2_orange.jpg");
@@ -139,7 +136,7 @@ a {
 .footer .box {
 	background: none;
 	padding-left: 20px;
-	height: auto;
+    width:100%;
 	flex-grow: 0;
 	width: 130px;
 	border: none;
@@ -172,10 +169,6 @@ a {
 	padding: 20px;
 }
 
-.bottom {
-	height: 130px;
-}
-
 .pop-up-container {
 	display: flex;
 	display: none;
@@ -191,10 +184,10 @@ a {
 
 .pop-up {
 	max-width: 500px;
-	height: 500px;
+	height: 300px;
 	margin: auto;
 	background-color: rgba(233, 147, 63, 0.9);
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 .pop-up:after {
@@ -212,6 +205,9 @@ a {
 	.header {
 		height: 200px;
 	}
+    .box {
+        flex-grow:0;
+    }
 	.container {
 		display: block;
 	}
@@ -234,12 +230,15 @@ a {
 		margin-bottom: 10px;
 	}
 	.content {
-		margin-right:5px;
+        width:100%;
+        display:block;
 		
 	}
 	.content .box {
 		width:100%;
-		margin-right:5px;
+        margin:0;
+        padding:0;
+        margin-bottom:10px;
 }
 	.footer {
 		margin-bottom: 0;
