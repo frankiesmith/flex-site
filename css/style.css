@@ -11,10 +11,10 @@ h3 {
 
 p {
 	font-family: arial;
-	margin:0;
-	font-size:.8em;
-	line-height:1.3em;
-	font-weight:400;
+	margin: 0;
+	font-size: .8em;
+	line-height: 1.3em;
+	font-weight: 400;
 }
 
 li {
@@ -88,14 +88,14 @@ a {
 .sidebar {
 	width: 20%;
 	margin: 5px;
-	background-color:#f78f20;
+	background-color: #f78f20;
 }
 
 .content {
 	width: 80%;
-	margin:10px;
-	padding:10px;
-	background-color:#fff;
+	margin: 10px;
+	padding: 10px;
+	background-color: #fff;
 }
 
 .box {
@@ -104,12 +104,12 @@ a {
 }
 
 .content .box {
-    padding: 10px;
-    margin: 8px;
-    min-height:200px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	margin: 8px;
+	min-height: 200px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
-    
+
 
 .header {
 	background: url("../images/beer_2_orange.jpg");
@@ -136,7 +136,7 @@ a {
 .footer .box {
 	background: none;
 	padding-left: 20px;
-    width:100%;
+	width: 100%;
 	flex-grow: 0;
 	width: 130px;
 	border: none;
@@ -205,9 +205,9 @@ a {
 	.header {
 		height: 200px;
 	}
-    .box {
-        flex-grow:0;
-    }
+	.box {
+		flex-grow: 0;
+	}
 	.container {
 		display: block;
 	}
@@ -230,16 +230,16 @@ a {
 		margin-bottom: 10px;
 	}
 	.content {
-        width:100%;
-        display:block;
-		
+		width: 100%;
+		display: block;
+
 	}
 	.content .box {
-		width:100%;
-        margin:0;
-        padding:0;
-        margin-bottom:10px;
-}
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
 	.footer {
 		margin-bottom: 0;
 	}
@@ -252,8 +252,8 @@ a {
 	.pop-up-container {
 		margin-top: 0px;
 	}
-		.pop-up {
-		margin-top:auto;
-		margin-bottom:auto;
-}
+	.pop-up {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
 }
